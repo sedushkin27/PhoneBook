@@ -15,5 +15,10 @@ namespace HomeworkPhoneBook
             this.name = name;
             this.phoneNumber = phoneNumber;
         }
+
+        public void Call()
+        {
+            Console.WriteLine($"you call {this.name}");
+        }
     }
 }
